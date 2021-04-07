@@ -1,0 +1,25 @@
+cls -> limpa
+cd.. -> pasta anterior
+dir -> mostra pastas dentro do diretório atual
+
+cd C:\Users\lucas\Google Drive\Colab Notebooks\Pós 2 Sem\Mineração de dados -> entra na pasta 
+
+md exemplo -> cria pasta com o nome exemplo
+
+conda create -n exemploEnv python==3.7 -> cria o ambiente python
+
+conda activate exemploEnv -> ativa o ambiente
+
+conda deactivate -> desativa o ambiente
+
+pip install kedro -> instala o kedro
+
+kedro new -> novo projeto kedro
+
+pip install jupyterlab -> instala o jupyterlab
+
+jupyter lab -> abre o jupyter lab
+
+pip freeze -> mostra as bibliotecas instaladas no ambiente
+
+pip install -r requirements.txt -> instala requirements
