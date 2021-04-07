@@ -2,7 +2,7 @@ cls -> limpa
 cd.. -> pasta anterior
 dir -> mostra pastas dentro do diretório atual
 
-cd C:\Users\lucas\Google Drive\Colab Notebooks\Pós 2 Sem\Mineração de dados -> entra na pasta 
+cd C:\Users\lucas\Google Drive\Colab Notebooks\Pós 2 Sem\Data_Mining -> entra na pasta 
 
 md exemplo -> cria pasta com o nome exemplo
 
