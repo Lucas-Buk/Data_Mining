@@ -23,3 +23,5 @@ jupyter lab -> abre o jupyter lab
 pip freeze -> mostra as bibliotecas instaladas no ambiente
 
 pip install -r requirements.txt -> instala requirements
+
+conda env list -> lista os ambientes 
