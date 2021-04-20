@@ -1,6 +1,6 @@
 [tool.kedro]
 package_name = "titanic"
-project_name = "Titanic"
+project_name = "titanic"
 project_version = "0.17.2"
 
 [tool.isort]

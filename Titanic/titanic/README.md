@@ -1,4 +1,4 @@
-# Titanic
+# titanic
 
 ## Overview
 
