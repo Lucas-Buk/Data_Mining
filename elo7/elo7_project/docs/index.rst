@@ -11,9 +11,9 @@ Autores
 
 * Lucas Buk Cardoso - RA: 20.84113-2
 
-* Leonardo Vila Franca Silva - RA: 20.84071-3
+* Leonardo Vila Franca Silva - RA: 20.84109-4
 
-* Lívia Zanfelici Fanucchi - RA: 20.84109-4
+* Lívia Zanfelici Fanucchi - RA: 20.84071-3
 
 Introdução
 ----------
