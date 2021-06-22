@@ -42,7 +42,7 @@ O treinamento e validação dos modelos estão apresentados em suas respectivas 
 
 Também foi utilizada uma biblioteca como uma outra abordagem para classficar os dados nas seis categorias possíveis, chamada `spacy`. Os dados brutos foram lidos novamente pois assim é possível rodar as duas abordagens de forma independente, com isso, foi necessário remover os valores nulos dos dados novamente e realizar a divisão em treinamento e teste, utilizando novamente os dados ordenados pela data, obtendo para treino os produtos mais antigos e um conjunto de teste com os produtos mais recentes.
 
-Após essas etapas foi utilizada a biblioteca `spacy`, somente com a coluna de `title`, assim definindo as configurações, labels e criação dos cojuntos de treino e teste. A seguir, foi realizado o treinamento e a validação do modelo de machine learning com o auxílio da matriz de confusão.
+Após essas etapas foi utilizada a biblioteca `spacy`, somente com a coluna de `title`, por isso o desempenho foi abaixo dos outros modelos, assim definindo as configurações, labels e criação dos cojuntos de treino e teste. A seguir, foi realizado o treinamento e a validação do modelo de machine learning com o auxílio da matriz de confusão.
 
 Mais detalhes da biblioteca no `link <https://www.kaggle.com/matleonard/text-classification>`_.
 
