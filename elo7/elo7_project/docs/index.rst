@@ -40,8 +40,21 @@ As etapas utilizadas para atingir o objetivo do trabalho foram a leitura e anál
 A seguir, foi realizado a normalização das colunas numéricas, são elas: `product_id`, `seller_id`, `search_page`, `position`, `price`, `weight`, `express_delivery`, `minimum_quantity`, `view_counts`, `order_counts`, incluindo também as colunas do dia, mês e ano. A última etapa foi a de balanceaento utilizando o método de oversampling, com a finalidade de igualar a quantidade de exemplo de cada classe dos labels.
 O treinamento e validação dos modelos estão apresentados em suas respectivas seções, contendo os detalhes de escolha dos modelos e também a discussão dos resultados.
 
+Também foi utilizada uma biblioteca como uma outra abordagem para classficar os dados nas seis categorias possíveis, chamada `spacy`. Os dados brutos foram lidos novamente pois assim é possível rodar as duas abordagens de forma independente, com isso, foi necessário remover os valores nulos dos dados novamente e realizar a divisão em treinamento e teste, utilizando novamente os dados ordenados pela data, obtendo para treino os produtos mais antigos e um conjunto de teste com os produtos mais recentes.
+
+Após essas etapas foi utilizada a biblioteca `spacy`, somente com a coluna de `title`, assim definindo as configurações, labels e criação dos cojuntos de treino e teste. A seguir, foi realizado o treinamento e a validação do modelo de machine learning com o auxílio da matriz de confusão.
+
+Mais detalhes da biblioteca no `link <https://www.kaggle.com/matleonard/text-classification>`_.
+
+
 .. toctree::
    :maxdepth: 2
-   :caption: Projeto
+   :caption: Primeiro Método
 
    Classification
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Segundo Método
+
+   Classification_parte2
